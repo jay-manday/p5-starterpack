@@ -8,13 +8,13 @@ This project has everything you need to get started with your p5.js projects, ba
 Developers like to run things from something called a Command Line, also known as CLI. Basically instead of working on your computer by clicking, dragging & dropping, we're interacting with the computer by simple commands via text. It's a little weird compared to the usual way people work with pc's but it can be super effective for certain types of tasks like coding! If your on a mac go to utilities and open up terminal, this is the 'CLI'.
 
 A few basic commands to get going:
-
-pwd - prints what folder your in
-ls - lists the items in your current directory/folder
-cd [directory] - changes your location, eg cd p5-starterpack
-cd .. - takes you back up one folder
-cd ~ takes you to the home directory
-
+'''
+pwd       - prints what folder your in
+ls        - lists the items in your current directory/folder
+cd [dir]  - changes your location, eg cd p5-starterpack
+cd ..     - takes you back up one folder
+cd ~      - takes you to the home directory
+'''
 
 ## Getting Started
 

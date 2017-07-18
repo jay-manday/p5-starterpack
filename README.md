@@ -1,17 +1,27 @@
-p5js-seed
+p5-starterpack
 =========
 
-You can use this project to quickly bootstrap your p5js project and supporting dev environment.
+This project has everything you need to get started with your p5.js projects, batteries included! The starterpack contains a basic p5js application and is pre-configured to install the p5js framework and a bunch of fancy shmancy development tools using bower and npm.
 
-The seed contains a basic p5js application and is pre-configured to install the p5js framework and a bunch of development tools using bower and npm.
+## A Quick Command Line Primer
+
+Developers like to run things from something called a Command Line, also known as CLI. Basically instead of working on your computer by clicking, dragging & dropping, we're interacting with the computer by simple commands via text. It's a little weird compared to the usual way people work with pc's but it can be super effective for certain types of tasks like coding! If your on a mac go to utilities and open up terminal, this is the 'CLI'.
+
+A few basic commands to get going:
+
+pwd - prints what folder your in
+ls - lists the items in your current directory/folder
+cd [directory] - changes your location, eg cd p5-starterpack
+cd .. - takes you back up one folder
+cd ~ takes you to the home directory
 
 
 ## Getting Started
 
-To get you started you can simply clone the p5js-seed repository and install the dependencies:
+To get you started you can simply clone the p5-starterpack repository and install the dependencies by typing into your terminal:
 
 ```
-git clone https://github.com/winkerVSbecks/p5js-seed.git
+git clone https://github.com/jay-manday/p5-starterpack
 cd p5js-seed
 ```
 
@@ -67,3 +77,8 @@ bower update
 ```
 
 This will find the latest versions that match the version ranges specified in the bower.json file.
+
+
+## Special Thanks
+
+This project is a fork of another project by @winkerVSbecks https://github.com/winkerVSbecks/p5js-seed

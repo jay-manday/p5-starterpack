@@ -1,7 +1,9 @@
-var gulp = require('gulp');
-var connect = require('gulp-connect');
-var colors = require('colors');
-var watch = require('gulp-watch');
+const gulp = require('gulp');
+const connect = require('gulp-connect');
+const colors = require('colors');
+const watch = require('gulp-watch');
+
+let log = console.log;
 
 gulp.task('dev', function() {
   // Start a server
@@ -10,9 +12,9 @@ gulp.task('dev', function() {
     port: 3000,
     livereload: true
   });
-  console.log('[CONNECT] Listening on port 3000'.yellow.inverse);
+  log('[CONNECT] Listening on port 3000'.yellow.inverse);
   // Watch HTML files for changes
-  console.log('[CONNECT] Watching files for live-reload'.blue);
+  log('[CONNECT] Watching files for live-reload'.blue);
   watch({
     glob: ['./js/**.js', './css/**.css', './index.html']
   })
